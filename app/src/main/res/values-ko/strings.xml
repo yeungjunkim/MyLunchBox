@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">마이런치박스</string>
+    <string name="action_settings">세팅</string>
+    <string name="lunchbox_img_title">런치박스타이틀이미지</string>
+    <string name="lunchboxtitleimg">런치박스타이을</string>
+    <string name="select_food_question_str">오늘은 어떤 음식을 선택해볼까요?</string>
+    <string name="view_restaurant_all_list">음식점 전체 목록을 봅시다.</string>
+    <string name="str_add_restaurant_txt">음식점목록에 없는 맛집을 공유해주세요.</string>
+    <string name="str_detail_restaurant">음식점 상세정보를 보아요.</string>
+    <string name="add_restaurant_name">이름</string>
+    <string name="add_restaurant_kind">종류</string>
+    <string name="add_restaurant_amount">예산</string>
+    <string name="add_restaurant_menu">메뉴</string>
+    <string name="str_add_btn">추가하기</string>
+    <string name="add_restaurant_btn">음식점 추가하기</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04"
+        android:src="@drawable/lunch_all_list" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_horizontal"
+        android:layout_weight="0.04"
+        android:text="@string/view_restaurant_all_list"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ExpandableListView
+        android:id="@+id/elv_list"
+        android:layout_width="match_parent"
+        android:layout_height="278dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.54" />
+
+    <Button
+        android:id="@+id/btnAddRestaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04"
+        android:text="@string/str_add_btn" />
+</LinearLayout>
